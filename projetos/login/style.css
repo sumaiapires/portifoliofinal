@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #535151;
+    border: none;
+}
+
+
+html{
+    background: url('https://i.ytimg.com/vi/hqk9sIAPyRw/maxresdefault.jpg') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    display: grid;
+    place-items: center;
+
+}
+
+input:focus{
+    outline: none;
+   
+}
+
+a{
+    font-size: .8rem;
+}
+
+a:hover{
+    color: #08558b;
+}
+
+#login-container{
+    background-color: #fff;
+    width: 25rem;
+    padding: 1.25rem;
+    border-radius: .625rem;
+    text-align: center;
+}
+/* FORM */
+form{
+    margin: 2.5rem 0;
+}
+label,input{
+    display: block;
+    text-align: left;
+
+}
+    
+label{
+    font-weight: bold;
+    font-size: .8rem;
+
+}
+
+input{
+    border-bottom: 2px solid #323232;
+    padding: .625rem;
+    font-size: 1rem;
+    width: 98%;
+    margin-bottom: 1.25rem;
+background: transparent;
+}
+
+#forgot-pass{
+    display: block;
+    text-align: right;
+}
+
+input[type="submit"] {
+    background: #e6c029b4;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 1.25rem;
+    margin-top: 1.6rem;
+    cursor: pointer;
+    /* opacity: 0.9; */
+    transition: background 0.10s;
+
+}
+
+input[type="submit"]:hover {
+    /* opacity: 1; */
+    background: #E6C129;
+}
+
+
+
+/*  */ REDES SOCIAIS
+
+#social-container, #social-container p{
+    margin-bottom: 1.25rem;
+}
+
+#social-container i{
+width: 2.5rem;
+height: 2.5rem;
+line-height: 2.5rem;
+border-radius: 50%;
+margin: 0 .3rem;
+color: #fff;
+}
+
+
+.fa-linkedin{
+    background-color: #306bc3;
+}
+.fa-facebook-f{
+    background-color: #1e7cf2;
+}
+
+.fa-whatsapp{
+    background: linear-gradient(to bottom, #08fe6c, #059e1c);
+}
+
+#register-container{
+    
+    margin-bottom: .6rem;
+}
+
+
+
+
